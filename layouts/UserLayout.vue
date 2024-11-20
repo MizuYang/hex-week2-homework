@@ -1,8 +1,13 @@
 <script setup>
+import AppHeader from '@/components/global/AppHeader.vue';
+import AppFooter from '@/components/global/AppFooter.vue';
 
+
+const userId = '006208' // 大盤 ETF
 </script>
 
 <template>
+  <AppHeader />
   <main class="pt-18 pt-md-30 bg-neutral-120">
     <section class="position-relative">
       <picture>
@@ -35,13 +40,14 @@
       <div class="container">
         <ul class="nav mb-10 mb-md-20 fw-bold">
           <li class="nav-item position-relative">
-            <NuxtLink
-              :to="{
+              <!-- :to="{
                 name: 'user-profile',
                 params: {
                   userId: $route.params.userId
                 }
-              }"
+              }" -->
+            <NuxtLink
+              :to="`/user/${userId}/profile`"
               exact-active-class="text-primary-100"
               class="nav-link px-6 py-4 text-white"
             >
@@ -49,13 +55,14 @@
             </NuxtLink>
           </li>
           <li class="nav-item position-relative">
-            <NuxtLink
-              :to="{
+              <!-- :to="{
                 name: 'user-order',
                 params: {
                   userId: $route.params.userId
                 }
-              }"
+              }" -->
+            <NuxtLink
+              :to="`/user/${userId}/order`"
               exact-active-class="text-primary-100"
               class="nav-link px-6 py-4 text-white"
             >
@@ -80,6 +87,8 @@
       >
     </picture>
   </main>
+
+  <AppFooter />
 </template>
 
 <style lang="scss" scoped>

@@ -1,7 +1,7 @@
 <script setup>
-// definePageMeat({
-//   layout: 'user-profile'
-// })
+definePageMeta({
+  layout: 'user-layout'
+})
 </script>
 
 <template>

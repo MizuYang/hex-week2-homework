@@ -1,8 +1,7 @@
 <script setup>
-import { NuxtLink } from 'vue-router'
 import { Icon } from '@iconify/vue';
 
-import 'bootstrap/js/dist/collapse';
+// import 'bootstrap/js/dist/collapse';
 </script>
 
 <template>
