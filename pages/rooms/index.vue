@@ -92,7 +92,7 @@ const roomImages = computed(() => {
         <h4 class="mb-2 mb-md-4 fs-8 fs-md-6 fw-bold text-neutral-80">
           房型選擇
         </h4>
-        <h2 class="mb-10 mb-md-20 fs-1 fw-bold text-primary-100">
+        <h2 class="mb-10 mb-md-20 fs-1 fw-bold text-primary-100" id="all-rooms">
           各種房型，任您挑選
         </h2>
         <ul class="d-flex flex-column gap-6 gap-md-12 list-unstyled">

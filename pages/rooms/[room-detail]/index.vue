@@ -6,7 +6,6 @@ import { Icon } from '@iconify/vue';
 
 const route = useRoute()
 
-// const datePickerModal = ref(null);
 const datePickerModal = ref(null);
 
 const openModal = () => {
@@ -93,13 +92,13 @@ const handleDateChange = (bookingInfo) => {
             </div>
           </div>
         </div>
-        <button
+        <NuxtLink
+          to="/rooms#all-rooms"
           class="position-absolute btn btn-primary-10 px-8 py-4 me-3 text-primary-100 border-primary-100 fw-bold rounded-3"
           style="bottom: 40px; right: 40px;"
-          type="button"
         >
           看更多
-        </button>
+      </NuxtLink>
       </div>
       <div class="d-md-none position-relative">
         <img
@@ -107,13 +106,13 @@ const handleDateChange = (bookingInfo) => {
           src="/images/room-a-1.png"
           alt="room-a-1"
         >
-        <button
-          class="position-absolute btn btn-primary-10 px-8 py-4 text-primary-100 border-primary-100 fw-bold rounded-3"
-          style="bottom: 23px; right: 12px;"
-          type="button"
+        <NuxtLink
+          to="/rooms#all-rooms"
+          class="position-absolute btn btn-primary-10 px-8 py-4 me-3 text-primary-100 border-primary-100 fw-bold rounded-3"
+          style="bottom: 40px; right: 40px;"
         >
           看更多
-        </button>
+      </NuxtLink>
       </div>
     </section>
 
