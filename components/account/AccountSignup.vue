@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue';
-// import { NuxtLink } from 'vue-router';
+
 import { Icon } from '@iconify/vue';
 
 const isEmailAndPasswordValid = ref(false);

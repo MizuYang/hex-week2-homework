@@ -1,6 +1,5 @@
 <script setup>
 import { ref } from 'vue';
-// import { useRouter } from 'vue-router';
 import BookingLoading from '@/components/rooms/BookingLoading.vue';
 import { Icon } from '@iconify/vue';
 
@@ -18,10 +17,7 @@ const confirmBooking = () => {
   setTimeout(async () => {
     isLoading.value = false;
     await navigateTo({
-      path: 'booking-confirmation',
-      params: {
-        bookingId: 'HH2302183151222'
-      }
+      path: `/booking/confirmation/${'HH2302183151222'}`
     })
   }, 1500);
 }
