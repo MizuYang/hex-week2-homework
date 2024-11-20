@@ -5,13 +5,16 @@ import { DatePicker } from 'v-calendar';
 import 'v-calendar/style.css';
 import { useScreens } from 'vue-screen-utils';
 
-import Modal from 'bootstrap/js/dist/modal';
+// import Modal from 'bootstrap/js/dist/modal';
+const { $bootstrap } = useNuxtApp();
+
+
 import { Icon } from '@iconify/vue';
 
 const modal = ref(null);
 
 onMounted(() => {
-  modal.value = new Modal(document.getElementById('dateModal'));
+  modal.value = $bootstrap.Modal(document.getElementById('dateModal'));
 })
 
 const openModal = () => {
@@ -119,7 +122,6 @@ const clearDate = () => {
     id="dateModal"
     class="modal fade"
     tabindex="-1"
-    aria-hidden="true"
   >
     <div class="modal-dialog modal-dialog-centered m-0 mt-9 mx-md-auto">
       <div
