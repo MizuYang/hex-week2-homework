@@ -4,20 +4,21 @@ import { ref } from 'vue';
 import BookingLoading from '@/components/rooms/BookingLoading.vue';
 import { Icon } from '@iconify/vue';
 
-// const router = useRouter();
+const route = useRoute()
 
-const goBack = () => {
-  navigateTo.back();
+const goBack = async () => {
+  if (route?.params?.roomdetail) await navigateTo(`/rooms/${route?.params?.roomdetail}`)
 }
+
 const isLoading = ref(false);
 
 const confirmBooking = () => {
   isLoading.value = true;
 
-  setTimeout(() => {
+  setTimeout(async () => {
     isLoading.value = false;
-    navigateTo.push({
-      name: 'booking-confirmation',
+    await navigateTo({
+      path: 'booking-confirmation',
       params: {
         bookingId: 'HH2302183151222'
       }
