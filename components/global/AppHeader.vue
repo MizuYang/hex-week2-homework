@@ -1,10 +1,7 @@
 <script setup>
 import { ref, onMounted, onUnmounted, computed } from 'vue';
-import { NuxtLink, useRoute } from 'vue-router'
+import { useRoute } from 'vue-router'
 import { Icon } from '@iconify/vue';
-
-import 'bootstrap/js/dist/collapse';
-import 'bootstrap/js/dist/dropdown';
 
 const route = useRoute();
 const transparentBgRoute = ['home', 'rooms'];
