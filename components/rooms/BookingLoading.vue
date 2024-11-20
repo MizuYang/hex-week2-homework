@@ -33,7 +33,7 @@
       <img
         class="mb-4"
         style="max-width: 144px;"
-        src="@/assets/images/logo-primary.svg"
+        src="/images/logo-primary.svg"
         alt="logo"
       >
       <p class="mb-0 text-neutral-100 fs-5 fw-bold">

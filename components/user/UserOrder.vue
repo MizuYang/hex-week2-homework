@@ -25,7 +25,7 @@ const roomId = 'a';  // for navigation demo
 
         <img
           class="img-fluid rounded-3"
-          src="@/assets/images/room-a-1.png"
+          src="/images/room-a-1.png"
           alt="room-a"
         >
 
@@ -294,7 +294,7 @@ const roomId = 'a';  // for navigation demo
           <img
             class="img-fluid object-fit-cover rounded-3"
             style="max-width: 120px; height: 80px;"
-            src="@/assets/images/room-b-sm-1.png"
+            src="/images/room-b-sm-1.png"
             alt="room-a"
           >
           <section class="d-flex flex-column gap-4">
@@ -337,7 +337,7 @@ const roomId = 'a';  // for navigation demo
           <img
             class="img-fluid object-fit-cover rounded-3"
             style="max-width: 120px; height: 80px;"
-            src="@/assets/images/room-b-sm-1.png"
+            src="/images/room-b-sm-1.png"
             alt="room-a"
           >
           <section class="d-flex flex-column gap-4">
@@ -380,7 +380,7 @@ const roomId = 'a';  // for navigation demo
           <img
             class="img-fluid object-fit-cover rounded-3"
             style="max-width: 120px; height: 80px;"
-            src="@/assets/images/room-b-sm-1.png"
+            src="/images/room-b-sm-1.png"
             alt="room-a"
           >
           <section class="d-flex flex-column gap-4">

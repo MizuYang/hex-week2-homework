@@ -17,7 +17,7 @@ import 'bootstrap/js/dist/collapse';
             to="/"
           >
             <img
-              src="@/assets/images/logo-white.svg"
+              src="/images/logo-white.svg"
               alt="logo"
               class="logo img-fluid"
             >
@@ -90,19 +90,19 @@ import 'bootstrap/js/dist/collapse';
       <img
         class="d-none d-md-block position-relative z-1 min-vh-100 object-fit-cover"
         style="max-width: 50%;"
-        src="@/assets/images/login-hero.png"
+        src="/images/login-hero.png"
         alt="login-hero"
       >
 
       <div class="d-flex flex-column justify-content-center align-items-center flex-grow-1 pt-18 pt-md-0">
         <picture class="w-100">
           <source
-            srcset="@/assets/images/deco-line-group-horizontal.svg"
+            srcset="/images/deco-line-group-horizontal.svg"
             media="(min-width: 576px)"
           >
           <img
             class="deco-line-group"
-            src="@/assets/images/deco-line-group-horizontal-sm.svg"
+            src="/images/deco-line-group-horizontal-sm.svg"
             alt="deco-line-group"
           >
         </picture>

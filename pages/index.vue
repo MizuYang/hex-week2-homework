@@ -45,12 +45,12 @@ definePageMeta({
         >
           <picture>
             <source
-              srcset="@/assets/images/home-hero.png"
+              srcset="/images/home-hero.png"
               media="(min-width:576px)"
             >
             <img
               class="hero-img"
-              src="@/assets/images/home-hero-sm.png"
+              src="/images/home-hero-sm.png"
               alt="hero banner"
             >
           </picture>
@@ -107,11 +107,11 @@ definePageMeta({
               <div class="d-flex flex-column flex-md-row align-items-center gap-6">
                 <picture>
                   <source
-                    srcset="@/assets/images/home-news-1.png"
+                    srcset="/images/home-news-1.png"
                     media="(min-width: 576px)"
                   >
                   <img
-                    src="@/assets/images/home-news-sm-1.png"
+                    src="/images/home-news-sm-1.png"
                     class="w-100 rounded-3"
                     alt="可看見海景及泳池的套房"
                   >
@@ -133,11 +133,11 @@ definePageMeta({
               <div class="d-flex flex-column flex-md-row align-items-center gap-6">
                 <picture>
                   <source
-                    srcset="@/assets/images/home-news-2.png"
+                    srcset="/images/home-news-2.png"
                     media="(min-width: 576px)"
                   >
                   <img
-                    src="@/assets/images/home-news-sm-2.png"
+                    src="/images/home-news-sm-2.png"
                     class="w-100 rounded-3"
                     alt="在雙人床上的兩顆灰色枕頭"
                   >
@@ -159,11 +159,11 @@ definePageMeta({
               <div class="d-flex flex-column flex-md-row align-items-center gap-6">
                 <picture>
                   <source
-                    srcset="@/assets/images/home-news-3.png"
+                    srcset="/images/home-news-3.png"
                     media="(min-width: 576px)"
                   >
                   <img
-                    src="@/assets/images/home-news-sm-3.png"
+                    src="/images/home-news-sm-3.png"
                     class="w-100 rounded-3"
                     alt="坐在沙發上的聖誕麋鹿玩偶"
                   >
@@ -233,12 +233,12 @@ definePageMeta({
           >
             <picture>
               <source
-                srcset="@/assets/images/home-room-1.png"
+                srcset="/images/home-room-1.png"
                 media="(min-width:768px)"
               >
               <img
                 class="w-100"
-                src="@/assets/images/home-room-sm-1.png"
+                src="/images/home-room-sm-1.png"
                 alt="room-a"
               >
             </picture>
@@ -305,12 +305,12 @@ definePageMeta({
             >
               <picture>
                 <source
-                  srcset="@/assets/images/home-food-1.png"
+                  srcset="/images/home-food-1.png"
                   media="(min-width: 576px)"
                 >
                 <img
                   class="w-100 rounded-3"
-                  src="@/assets/images/home-food-sm-1.png"
+                  src="/images/home-food-sm-1.png"
                   alt="海霸"
                 >
               </picture>
@@ -337,12 +337,12 @@ definePageMeta({
             >
               <picture>
                 <source
-                  srcset="@/assets/images/home-food-2.png"
+                  srcset="/images/home-food-2.png"
                   media="(min-width: 576px)"
                 >
                 <img
                   class="w-100 rounded-3"
-                  src="@/assets/images/home-food-sm-2.png"
+                  src="/images/home-food-sm-2.png"
                   alt="日食"
                 >
               </picture>
@@ -369,12 +369,12 @@ definePageMeta({
             >
               <picture>
                 <source
-                  srcset="@/assets/images/home-food-3.png"
+                  srcset="/images/home-food-3.png"
                   media="(min-width: 576px)"
                 >
                 <img
                   class="w-100 rounded-3"
-                  src="@/assets/images/home-food-sm-3.png"
+                  src="/images/home-food-sm-3.png"
                   alt="山臻"
                 >
               </picture>
@@ -401,12 +401,12 @@ definePageMeta({
             >
               <picture>
                 <source
-                  srcset="@/assets/images/home-food-4.png"
+                  srcset="/images/home-food-4.png"
                   media="(min-width: 576px)"
                 >
                 <img
                   class="w-100 rounded-3"
-                  src="@/assets/images/home-food-sm-4.png"
+                  src="/images/home-food-sm-4.png"
                   alt="月永"
                 >
               </picture>
@@ -433,12 +433,12 @@ definePageMeta({
             >
               <picture>
                 <source
-                  srcset="@/assets/images/home-food-5.png"
+                  srcset="/images/home-food-5.png"
                   media="(min-width: 576px)"
                 >
                 <img
                   class="w-100 rounded-3"
-                  src="@/assets/images/home-food-sm-5.png"
+                  src="/images/home-food-sm-5.png"
                   alt="天潮"
                 >
               </picture>
@@ -477,12 +477,12 @@ definePageMeta({
             </p>
             <picture>
               <source
-                srcset="@/assets/images/home-map.png"
+                srcset="/images/home-map.png"
                 media="(min-width: 576px)"
               >
               <img
                 class="w-100"
-                src="@/assets/images/home-map-sm.png"
+                src="/images/home-map-sm.png"
                 alt="描述地圖中酒店所在的位置"
               >
             </picture>
@@ -527,12 +527,12 @@ definePageMeta({
       </div>
       <picture>
         <source
-          srcset="@/assets/images/deco-line-group-horizontal-full.svg"
+          srcset="/images/deco-line-group-horizontal-full.svg"
           media="(min-width:576px)"
         >
         <img
           class="w-100"
-          src="@/assets/images/deco-line-group-horizontal-sm.svg"
+          src="/images/deco-line-group-horizontal-sm.svg"
           alt="deco-line-group"
         >
       </picture>
@@ -674,7 +674,7 @@ section .btn {
 }
 
 .news .container::before {
-  background-image: url('@/assets/images/deco-dot-group.svg');
+  background-image: url('/images/deco-dot-group.svg');
   content: '';
   display: block;
   position: absolute;
@@ -684,7 +684,7 @@ section .btn {
   height: 200px;
 
   @include media-breakpoint-down(md) {
-    background-image: url('@/assets/images/deco-dot-group-sm.svg');
+    background-image: url('/images/deco-dot-group-sm.svg');
     width: 100px;
     height: 100px;
     top: -40px;
@@ -693,7 +693,7 @@ section .btn {
 }
 
 .news .container::after {
-  background-image: url('@/assets/images/deco-dot-group.svg');
+  background-image: url('/images/deco-dot-group.svg');
   content: '';
   display: block;
   position: absolute;
@@ -703,7 +703,7 @@ section .btn {
   height: 200px;
 
   @include media-breakpoint-down(md) {
-    background-image: url('@/assets/images/deco-dot-group-sm.svg');
+    background-image: url('/images/deco-dot-group-sm.svg');
     width: 100px;
     height: 100px;
     bottom: -140px;
@@ -713,7 +713,7 @@ section .btn {
 
 
 .about {
-  background-image: url('@/assets/images/home-about.png');
+  background-image: url('/images/home-about.png');
   height: 992px;
   background-position-y: 120px;
   background-repeat: no-repeat;
@@ -759,12 +759,12 @@ section .btn {
   content: '';
   width: 375px;
   height: 84px;
-  background-image: url('@/assets/images/deco-line-group-horizontal-sm.svg');
+  background-image: url('/images/deco-line-group-horizontal-sm.svg');
   background-repeat: no-repeat;
 
 
   @include media-breakpoint-up(md) {
-    background-image: url('@/assets/images/deco-line-group-horizontal.svg');
+    background-image: url('/images/deco-line-group-horizontal.svg');
     width: 1060px;
     height: 187px;
     top: -50px;
@@ -796,12 +796,12 @@ section .btn {
   content: '';
   width: 375px;
   height: 132px;
-  background-image: url('@/assets/images/deco-wave-bg-sm.svg');
+  background-image: url('/images/deco-wave-bg-sm.svg');
   background-repeat: no-repeat;
 
 
   @include media-breakpoint-up(md) {
-    background-image: url('@/assets/images/deco-wave-bg.svg');
+    background-image: url('/images/deco-wave-bg.svg');
     width: 1920px;
     height: 86%;
     bottom: 0;
@@ -866,7 +866,7 @@ section .btn {
     content: '';
     width: 187px;
     height: 1068px;
-    background-image: url('@/assets/images/deco-line-group-vertical.svg');
+    background-image: url('/images/deco-line-group-vertical.svg');
   }
 }
 

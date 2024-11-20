@@ -14,6 +14,8 @@ const modules = ref([Autoplay, Navigation, Pagination]);
 
 const importImage = (url) => {
   const image = new URL(url, import.meta.url);
+  // console.log('import.meta.url: ', import.meta.url)
+  // console.log('image: ', image)
   return image.href;
 }
 
@@ -24,8 +26,8 @@ const roomImages = computed(() => {
   const result = rooms.reduce((acc, roomId) => {
     acc[`room${roomId.toUpperCase()}`] = nums.reduce((obj, num) => {
       obj[num] = {
-        desktop: importImage(`../assets/images/room-${roomId}-${num}.png`),
-        mobile: importImage(`../assets/images/room-${roomId}-sm-${num}.png`)
+        desktop: `/images/room-${roomId}-${num}.png`,
+        mobile: `/images/room-${roomId}-sm-${num}.png`
       };
       return obj;
     }, {});
@@ -35,6 +37,8 @@ const roomImages = computed(() => {
 
   return result;
 })
+
+console.log('roomImages: ', roomImages)
 
 
 </script>
@@ -57,12 +61,12 @@ const roomImages = computed(() => {
         >
           <picture>
             <source
-              srcset="@/assets/images/home-hero.png"
+              srcset="/images/home-hero.png"
               media="(min-width:576px)"
             >
             <img
               class="hero-img"
-              src="@/assets/images/home-hero-sm.png"
+              src="/images/home-hero-sm.png"
               alt="hero banner"
             >
           </picture>
@@ -115,14 +119,15 @@ const roomImages = computed(() => {
                     v-for="(num, index) in 5"
                     :key="index"
                   >
+                  <!-- <p>"{{roomImages?.roomA[num]?.mobile}}"</p> -->
                     <picture>
                       <source
-                        :srcset="roomImages.roomA[num].desktop"
+                        :srcset="roomImages?.roomA[num]?.desktop"
                         media="(min-width: 768px)"
                       >
                       <img
                         class="w-100 object-fit-cover"
-                        :src="roomImages.roomA[num].mobile"
+                        :src="roomImages?.roomA[num]?.mobile"
                         loading="lazy"
                         :alt="`room-a-${num}`"
                       >
@@ -179,7 +184,7 @@ const roomImages = computed(() => {
                         }
                       }" -->
                     <NuxtLink
-                      to="room-detail/12345"
+                      to="/rooms/123"
                       class="icon-link icon-link-hover text-primary-100"
                     >
                       <Icon
@@ -276,7 +281,7 @@ const roomImages = computed(() => {
                         }
                       }" -->
                     <NuxtLink
-                      to="room-detail/12345"
+                      to="/rooms/123"
                       class="icon-link icon-link-hover text-primary-100"
                     >
                       <Icon
@@ -373,7 +378,7 @@ const roomImages = computed(() => {
                         }
                       }" -->
                     <NuxtLink
-                      to="room-detail/12345"
+                      to="/rooms/123"
                       class="icon-link icon-link-hover text-primary-100"
                     >
                       <Icon
@@ -470,7 +475,7 @@ const roomImages = computed(() => {
                         }
                       }" -->
                     <NuxtLink
-                      to="room-detail/12345"
+                      to="/rooms/123"
                       class="icon-link icon-link-hover text-primary-100"
                     >
                       <Icon

@@ -44,7 +44,7 @@ onUnmounted(() => {
           to="/"
         >
           <img
-            src="@/assets/images/logo-white.svg"
+            src="/images/logo-white.svg"
             alt="logo"
             class="logo img-fluid"
           >

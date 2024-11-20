@@ -7,13 +7,13 @@
     <section class="position-relative">
       <picture>
         <source
-          srcset="@/assets/images/profile-hero.png"
+          srcset="/images/profile-hero.png"
           media="(min-width: 576px)"
         >
         <img
           class="w-100 object-fit-cover"
           style="height: 384px;"
-          src="@/assets/images/profile-hero-sm.png"
+          src="/images/profile-hero-sm.png"
           alt="profile-hero"
         >
       </picture>
@@ -21,7 +21,7 @@
         <div class="hero-content d-flex flex-column flex-md-row justify-content-center justify-content-md-start align-items-md-center gap-4 gap-md-6 mx-5 my-10 mx-md-0 my-md-0">
           <img
             class="avatar"
-            src="@/assets/images/avatar-6.png"
+            src="/images/avatar-6.png"
             alt="avatar"
           >
           <h1 class="text-neutral-0 fw-bold">
@@ -70,12 +70,12 @@
 
     <picture>
       <source
-        srcset="@/assets/images/deco-line-group-horizontal-full.svg"
+        srcset="/images/deco-line-group-horizontal-full.svg"
         media="(min-width:576px)"
       >
       <img
         class="w-100"
-        src="@/assets/images/deco-line-group-horizontal-sm.svg"
+        src="/images/deco-line-group-horizontal-sm.svg"
         alt="deco-line-group"
       >
     </picture>
