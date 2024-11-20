@@ -6,7 +6,7 @@ import AppFooter from '@/components/global/AppFooter.vue';
 <template>
   <div>
     <AppHeader />
-    <slot />
+     <slot />
     <AppFooter />
   </div>
 </template>

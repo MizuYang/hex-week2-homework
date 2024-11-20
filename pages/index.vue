@@ -23,7 +23,7 @@ const slideNext = () => {
 }
  
 definePageMeta({
-  layout: 'Front-layout'
+  layout: 'front-layout'
 })
 </script>
 
@@ -854,7 +854,7 @@ section .btn {
     content: '';
     width: 200px;
     height: 200px;
-    background-image: url('../assets/images/deco-dot-group.svg');
+    background-image: url('/images/deco-dot-group.svg');
   }
 }
 
