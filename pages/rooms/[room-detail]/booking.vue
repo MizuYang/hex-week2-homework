@@ -1,13 +1,13 @@
 <script setup>
 import { ref } from 'vue';
-import { useRouter } from 'vue-router';
+// import { useRouter } from 'vue-router';
 import BookingLoading from '@/components/rooms/BookingLoading.vue';
 import { Icon } from '@iconify/vue';
 
-const router = useRouter();
+// const router = useRouter();
 
 const goBack = () => {
-  router.back();
+  navigateTo.back();
 }
 const isLoading = ref(false);
 
@@ -16,7 +16,7 @@ const confirmBooking = () => {
 
   setTimeout(() => {
     isLoading.value = false;
-    router.push({
+    navigateTo.push({
       name: 'booking-confirmation',
       params: {
         bookingId: 'HH2302183151222'

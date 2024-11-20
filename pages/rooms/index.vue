@@ -11,7 +11,6 @@ import 'swiper/css/pagination';
 
 const modules = ref([Autoplay, Navigation, Pagination]);
 
-
 const importImage = (url) => {
   const image = new URL(url, import.meta.url);
   // console.log('import.meta.url: ', import.meta.url)
@@ -37,9 +36,6 @@ const roomImages = computed(() => {
 
   return result;
 })
-
-console.log('roomImages: ', roomImages)
-
 
 </script>
 
@@ -177,14 +173,8 @@ console.log('roomImages: ', roomImages)
                     <p class="mb-0 fw-bold">
                       NT$ 10,000
                     </p>
-                      <!-- :to="{
-                      name: 'room-detail',
-                        params: {
-                          roomId: 'a'
-                        }
-                      }" -->
                     <NuxtLink
-                      to="/rooms/123"
+                      to="/rooms/a"
                       class="icon-link icon-link-hover text-primary-100"
                     >
                       <Icon
@@ -274,14 +264,8 @@ console.log('roomImages: ', roomImages)
                     <p class="mb-0 fw-bold">
                       NT$ 10,000
                     </p>
-                      <!-- :to="{
-                        name: 'room-detail',
-                        params: {
-                          roomId: 'b'
-                        }
-                      }" -->
                     <NuxtLink
-                      to="/rooms/123"
+                      to="/rooms/b"
                       class="icon-link icon-link-hover text-primary-100"
                     >
                       <Icon
@@ -371,14 +355,8 @@ console.log('roomImages: ', roomImages)
                     <p class="mb-0 fw-bold">
                       NT$ 10,000
                     </p>
-                      <!-- :to="{
-                        name: 'room-detail',
-                        params: {
-                          roomId: 'c'
-                        }
-                      }" -->
                     <NuxtLink
-                      to="/rooms/123"
+                      to="/rooms/c"
                       class="icon-link icon-link-hover text-primary-100"
                     >
                       <Icon
@@ -468,14 +446,8 @@ console.log('roomImages: ', roomImages)
                     <p class="mb-0 fw-bold">
                       NT$ 10,000
                     </p>
-                      <!-- :to="{
-                        name: 'room-detail',
-                        params: {
-                          roomId: 'd'
-                        }
-                      }" -->
                     <NuxtLink
-                      to="/rooms/123"
+                      to="/rooms/d"
                       class="icon-link icon-link-hover text-primary-100"
                     >
                       <Icon
