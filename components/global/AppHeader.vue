@@ -100,16 +100,12 @@ onUnmounted(() => {
                       :to="`/user/${userId}/profile`"
                       class="dropdown-item px-6 py-4"
                     >我的帳戶</NuxtLink>
-                    <!-- <a
-                      class="dropdown-item px-6 py-4"
-                      href="#"
-                    >我的帳戶</a> -->
                   </li>
                   <li>
-                    <a
+                    <NuxtLink
+                      to="/account/login"
                       class="dropdown-item px-6 py-4"
-                      href="#"
-                    >登出</a>
+                    >登出</NuxtLink>
                   </li>
                 </ul>
               </div>
