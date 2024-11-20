@@ -10,6 +10,7 @@ const isTransparentRoute = computed(() => transparentBgRoute.includes(route.name
 
 
 const isScrolled = ref(false);
+const userId = '006208'
 
 const handleScroll = () => {
   isScrolled.value = window.scrollY > 50;
@@ -95,10 +96,14 @@ onUnmounted(() => {
                   style="right: 0; left: auto; border-radius: 20px;"
                 >
                   <li>
-                    <a
+                    <NuxtLink
+                      :to="`/user/${userId}/profile`"
+                      class="dropdown-item px-6 py-4"
+                    >我的帳戶</NuxtLink>
+                    <!-- <a
                       class="dropdown-item px-6 py-4"
                       href="#"
-                    >我的帳戶</a>
+                    >我的帳戶</a> -->
                   </li>
                   <li>
                     <a
