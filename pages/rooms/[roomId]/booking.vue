@@ -1,12 +1,10 @@
 <script setup>
-import { ref } from 'vue';
-import BookingLoading from '@/components/rooms/BookingLoading.vue';
 import { Icon } from '@iconify/vue';
 
 const route = useRoute()
 
 const goBack = async () => {
-  if (route?.params?.roomdetail) await navigateTo(`/rooms/${route?.params?.roomdetail}`)
+  if (route?.params?.roomId) await navigateTo(`/rooms/${route?.params?.roomId}`)
 }
 
 const isLoading = ref(false);
@@ -560,7 +558,7 @@ const confirmBooking = () => {
       </div>
     </section>
 
-    <BookingLoading v-if="isLoading" />
+    <RoomsBookingLoading v-if="isLoading" />
   </main>
 </template>
 
