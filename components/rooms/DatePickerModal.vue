@@ -211,9 +211,10 @@ const clearDate = () => {
             v-if="!isConfirmDateOnMobile"
             class="date-picker"
           >
+              <!-- v-model.range.string="tempDate.date" -->
             <DatePicker
+              v-model="tempDate.date"
               :key="tempDate.key"
-              v-model.range.string="tempDate.date"
               color="primary"
               :masks="masks"
               :first-day-of-week="1"
