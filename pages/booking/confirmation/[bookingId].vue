@@ -4,7 +4,9 @@ import { Icon } from '@iconify/vue';
 const route = useRoute();
 const { bookingId } = route.params;
 
-
+definePageMeta({
+  title: '預約成功'
+})
 </script>
 
 <template>

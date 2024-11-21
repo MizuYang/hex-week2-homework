@@ -21,7 +21,8 @@ const slideNext = () => {
 }
  
 definePageMeta({
-  layout: 'front-layout'
+  title: '首頁',
+  layout: 'front-layout',
 })
 </script>
 

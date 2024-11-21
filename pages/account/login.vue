@@ -1,4 +1,8 @@
-<script setup></script>
+<script setup>
+definePageMeta({
+  title: '會員登入'
+})
+</script>
 
 <template>
   <div class="px-5 px-md-0">

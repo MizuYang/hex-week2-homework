@@ -3,6 +3,9 @@ import { Icon } from '@iconify/vue';
 
 const isEmailAndPasswordValid = ref(false);
 
+definePageMeta({
+  title: '註冊會員'
+})
 </script>
 
 <template>

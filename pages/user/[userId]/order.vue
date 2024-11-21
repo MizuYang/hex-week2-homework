@@ -2,6 +2,10 @@
 import { Icon } from '@iconify/vue';
 
 const roomId = 'a';  // for navigation demo
+
+definePageMeta({
+  title: '訂單列表'
+})
 </script>
 
 <template>

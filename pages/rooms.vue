@@ -1,5 +1,6 @@
 <script setup>
 definePageMeta({
+  title: '客房旅宿',
   layout: 'front-layout'
 })
 </script>

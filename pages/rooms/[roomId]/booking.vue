@@ -20,6 +20,9 @@ const confirmBooking = () => {
   }, 1500);
 }
 
+definePageMeta({
+  title: '預約房型'
+})
 </script>
 
 <template>
