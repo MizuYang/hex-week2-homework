@@ -10,6 +10,9 @@ import 'swiper/css/pagination';
 
 const modules = ref([Autoplay, Navigation, Pagination]);
 
+const config = useRuntimeConfig();
+const baseUrl = config?.public?.baseUrl;
+
 const importImage = (url) => {
   const image = new URL(url, import.meta.url);
   return image.href;
@@ -22,8 +25,8 @@ const roomImages = computed(() => {
   const result = rooms.reduce((acc, roomId) => {
     acc[`room${roomId.toUpperCase()}`] = nums.reduce((obj, num) => {
       obj[num] = {
-        desktop: `/images/room-${roomId}-${num}.png`,
-        mobile: `/images/room-${roomId}-sm-${num}.png`
+        desktop: `${baseUrl}images/room-${roomId}-${num}.png`,
+        mobile: `${baseUrl}images/room-${roomId}-sm-${num}.png`
       };
       return obj;
     }, {});
