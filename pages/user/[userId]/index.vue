@@ -1,5 +1,4 @@
 <script setup>
-
 definePageMeta({
   layout: 'user-layout',
   middleware: async (to, from) => {
@@ -22,9 +21,7 @@ definePageMeta({
 </script>
 
 <template>
-  <div>
-    <NuxtPage />
-  </div>
+  <div></div>
 </template>
 
 <style lang='scss' scope></style>
