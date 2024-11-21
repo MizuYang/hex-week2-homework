@@ -1,7 +1,9 @@
 <script setup>
 definePageMeta({
-  layout: 'account-layout'
+  layout: 'account-layout',
+  middleware: ['account']
 })
+
 </script>
 
 <template>
