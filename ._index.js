@@ -27,7 +27,7 @@ const router = createRouter({
         {
           path: 'rooms/:roomId',
           name: 'room-detail',
-          component: () => import('@/views/RoomDetailView.vue'),
+          component: () => import('@/views/roomIdView.vue'),
           meta: {
             title:'房型詳細'
           }
