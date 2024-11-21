@@ -1,6 +1,4 @@
 <script setup>
-import { ref } from 'vue';
-
 import { Icon } from '@iconify/vue';
 
 const isEmailAndPasswordValid = ref(false);

@@ -1,5 +1,4 @@
 <script setup>
-import { ref } from 'vue';
 import { Icon } from '@iconify/vue';
 
 import { Swiper, SwiperSlide } from 'swiper/vue';
@@ -10,7 +9,6 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 const modules = ref([Autoplay, Navigation, Pagination]);
-
 
 const roomSwiper = ref(null);
 
@@ -955,6 +953,5 @@ section .btn {
   width: 60px;
   background-color: #BF9D7D;
 }
-
 
 </style>

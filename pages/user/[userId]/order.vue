@@ -1,8 +1,5 @@
 <script setup>
-
 import { Icon } from '@iconify/vue';
-
-// import 'bootstrap/js/dist/modal';
 
 const roomId = 'a';  // for navigation demo
 </script>
@@ -268,7 +265,7 @@ const roomId = 'a';  // for navigation demo
             取消預訂
           </button>
           <NuxtLink
-            to="/rooms/a"
+            :to="`/rooms/${roomId}`"
             class="btn btn-primary-100 text-neutral-0 w-50 py-4 fw-bold"
             type="button"
           >
@@ -412,13 +409,6 @@ const roomId = 'a';  // for navigation demo
           </section>
         </div>
 
-        <!-- <button
-          class="btn btn-outline-primary-100 py-4 fw-bold"
-          style="--bs-btn-hover-color: #fff"
-          type="button"
-        >
-          查看更多
-        </button> -->
         <NuxtLink
           to="/rooms#all-rooms"
           class="btn btn-outline-primary-100 py-4 fw-bold"

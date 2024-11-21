@@ -40,12 +40,6 @@ const userId = '006208' // 大盤 ETF
       <div class="container">
         <ul class="nav mb-10 mb-md-20 fw-bold">
           <li class="nav-item position-relative">
-              <!-- :to="{
-                name: 'user-profile',
-                params: {
-                  userId: $route.params.userId
-                }
-              }" -->
             <NuxtLink
               :to="`/user/${userId}/profile`"
               exact-active-class="text-primary-100"
@@ -55,12 +49,6 @@ const userId = '006208' // 大盤 ETF
             </NuxtLink>
           </li>
           <li class="nav-item position-relative">
-              <!-- :to="{
-                name: 'user-order',
-                params: {
-                  userId: $route.params.userId
-                }
-              }" -->
             <NuxtLink
               :to="`/user/${userId}/order`"
               exact-active-class="text-primary-100"

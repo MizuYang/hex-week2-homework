@@ -1,9 +1,9 @@
 <script setup>
 import { Icon } from '@iconify/vue';
-import { useRoute } from 'vue-router';
 
 const route = useRoute();
 const { bookingId } = route.params;
+
 
 </script>
 

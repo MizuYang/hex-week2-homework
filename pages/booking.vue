@@ -5,9 +5,9 @@ definePageMeta({
 </script>
 
 <template>
- <div>
-  <NuxtPage />
- </div>
+  <div>
+    <NuxtPage />
+  </div>
 </template>
 
 <style lang='scss' scope></style>

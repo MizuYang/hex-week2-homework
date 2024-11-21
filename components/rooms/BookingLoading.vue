@@ -1,3 +1,5 @@
+<script setup></script>
+
 <template>
   <div
     class="position-fixed z-3 d-flex justify-content-center align-items-center px-3"
@@ -42,10 +44,6 @@
     </div>
   </div>
 </template>
-
-<script setup>
-
-</script>
 
 <style lang="scss" scoped>
 $breakpoint-md: 768px;

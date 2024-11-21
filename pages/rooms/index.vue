@@ -1,5 +1,4 @@
 <script setup>
-import { computed, ref } from 'vue';
 import { Icon } from '@iconify/vue';
 
 import { Swiper, SwiperSlide } from 'swiper/vue';
@@ -13,8 +12,6 @@ const modules = ref([Autoplay, Navigation, Pagination]);
 
 const importImage = (url) => {
   const image = new URL(url, import.meta.url);
-  // console.log('import.meta.url: ', import.meta.url)
-  // console.log('image: ', image)
   return image.href;
 }
 
@@ -115,7 +112,6 @@ const roomImages = computed(() => {
                     v-for="(num, index) in 5"
                     :key="index"
                   >
-                  <!-- <p>"{{roomImages?.roomA[num]?.mobile}}"</p> -->
                     <picture>
                       <source
                         :srcset="roomImages?.roomA[num]?.desktop"

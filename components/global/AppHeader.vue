@@ -1,13 +1,10 @@
 <script setup>
-import { ref, onMounted, onUnmounted, computed } from 'vue';
-import { useRoute } from 'vue-router'
 import { Icon } from '@iconify/vue';
 
 const route = useRoute();
 const transparentBgRoute = ['home', 'rooms'];
 
 const isTransparentRoute = computed(() => transparentBgRoute.includes(route.name));
-
 
 const isScrolled = ref(false);
 const userId = '006208'
