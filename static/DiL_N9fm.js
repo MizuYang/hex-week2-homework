@@ -1,1 +1,0 @@
-import{$ as s,n as u}from"./CLWNPC7E.js";const o=s((e,t)=>{const a="006208";(e.fullPath==="/user/"||e.fullPath==="/user"||e.fullPath===`/user/${a}`||e.fullPath===`/user/${a}/`)&&setTimeout(async()=>{await u({path:`/user/${a}/profile`})})});export{o as default};
