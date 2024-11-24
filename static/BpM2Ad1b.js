@@ -1,0 +1,1 @@
+import e from"./DjPHdNet.js";import t from"./CIHW3w9F.js";import{o as a,c as m,b as o,I as p}from"./iRSXFNZ-.js";import"./U3ZMFcBI.js";import"./DctdNTPc.js";import"./7CN4MIRy.js";const d={__name:"FrontLayout",setup(s){return(r,n)=>(a(),m("div",null,[o(e),p(r.$slots,"default"),o(t)]))}};export{d as default};
