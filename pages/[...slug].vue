@@ -2,6 +2,9 @@
 const countdown = ref(-1)
 let timer = null
 
+const event = useRequestEvent();
+setResponseStatus(event, 404);
+
 onMounted(() => {
   autoRedirect()
 })
