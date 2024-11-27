@@ -1,6 +1,5 @@
 <script setup>
 definePageMeta({
-  layout: 'user-layout',
   middleware: ['user']
 })
 </script>

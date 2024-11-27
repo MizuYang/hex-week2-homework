@@ -37,9 +37,6 @@ const roomImages = computed(() => {
   return result;
 })
 
-definePageMeta({
-  title: '客房旅宿'
-})
 </script>
 
 <template>
